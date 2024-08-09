@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 1s ease-in-out;
+}
+
+#loading-screen, #compliment-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    transition: opacity 1s ease-in-out;
+}
+
+#loading-screen h1, #compliment-screen h1 {
+    color: #333;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#compliment-screen {
+    display: none;
+}
+
+#loading-screen {
+    background-color: #ffffff;
+}
